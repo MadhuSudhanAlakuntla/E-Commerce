@@ -1,0 +1,35 @@
+.header {
+    margin-top: 90px;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .noFeeImage{
+    transition: transform 0.5s ease;
+    width: 100%;
+    cursor: pointer;
+    height: auto;
+}
+.noFeeImage:hover{
+    transform: scale(1.2);
+}
+  
+  .slider {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .slides {
+    display: flex;
+    transition: transform 1s ease-in-out;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .slide {
+    min-width: 100%;
+    transition: opacity 1s ease-in-out;
+  }
+  

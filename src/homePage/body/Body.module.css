@@ -1,0 +1,14 @@
+#allimages{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+}
+.image{
+    transition: transform 0.5s ease;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.image:hover{
+    transform: scale(1.2);
+}

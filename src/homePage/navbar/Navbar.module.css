@@ -1,0 +1,55 @@
+#navBar{
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    height: 90px;
+    top: 0px;
+    display: flex;
+    padding: 0 6%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 1px;
+
+}
+
+.logo{
+    width: 66px;
+    height: 55px;
+    margin: 0;
+}
+#navItems{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#searchBar{
+    width: 269px;
+    height: 34px;
+    border: none;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 90px;
+    background-color: #fffded;
+    padding: 0px 40px 0px 12px;
+}
+
+#searchIcon{
+    width: 20px;
+    height: 20px;
+    margin-left: -35px;
+    z-index: 1;
+}
+
+.cart{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 65, 82);;
+}
